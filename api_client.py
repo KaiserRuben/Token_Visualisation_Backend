@@ -17,6 +17,13 @@ from typing import List, Dict, Optional, Union, Any
 # Default API base URL - modify this as needed
 API_BASE_URL = "http://localhost:8000"
 
+# Alias for recommended models for testing
+TEST_MODELS = {
+    "tiny": "distilgpt2",  # Very small model (82M parameters)
+    "small": "gpt2",       # Small model (124M parameters)
+    "medium": "facebook/opt-125m"  # Good balance of size and quality
+}
+
 
 def submit_attribution_job(
     input_text: str,
