@@ -75,14 +75,14 @@ The API will be available at http://localhost:8000.
 
 ### Using the Jupyter Notebook
 
-We provide a Jupyter notebook (`inseq_api_visualization.ipynb`) with helper functions for interacting with the API and visualizing the results. See the notebook for detailed examples.
+We provide a Jupyter notebook (`main.ipynb`) with helper functions for interacting with the API and visualizing the results. See the notebook for detailed examples.
 
 ## Project Structure
 
 - `main.py`: FastAPI application and endpoints
 - `models.py`: Pydantic models for request and response data
 - `job_manager.py`: Job management and execution
-- `inseq_api_visualization.ipynb`: Jupyter notebook for visualization
+- `main.ipynb`: Jupyter notebook for visualization
 
 ## Attribution Methods
 
